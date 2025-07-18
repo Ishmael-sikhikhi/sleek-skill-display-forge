@@ -5,42 +5,42 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "React/Next.js", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Tailwind CSS", level: 90 },
-        { name: "JavaScript", level: 88 }
+        { name: "Java", level: 85 },
+        { name: "C#", level: 82 },
+        { name: "Python", level: 75 },
+        { name: "SQL", level: 88 },
+        { name: "C Programming", level: 80 }
       ]
     },
     {
-      title: "Backend Development", 
+      title: "Frameworks & Platforms", 
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "Express.js", level: 85 },
-        { name: "Database Design", level: 82 },
-        { name: "API Development", level: 88 }
+        { name: ".NET Framework", level: 85 },
+        { name: "Xamarin", level: 80 },
+        { name: "React", level: 78 },
+        { name: "Android Development", level: 82 },
+        { name: "Web Development", level: 85 }
       ]
     },
     {
       title: "Tools & Technologies",
       skills: [
-        { name: "Git/GitHub", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS/Cloud", level: 70 },
-        { name: "VS Code", level: 95 },
-        { name: "Figma", level: 80 }
+        { name: "Visual Studio", level: 90 },
+        { name: "Git/GitHub", level: 85 },
+        { name: "Database Design", level: 88 },
+        { name: "Mobile Development", level: 85 },
+        { name: "Research & Analysis", level: 80 }
       ]
     }
   ];
 
   const technologies = [
-    "React", "TypeScript", "Node.js", "Python", "Next.js", "Express.js",
-    "MongoDB", "PostgreSQL", "Docker", "AWS", "Git", "Tailwind CSS",
-    "JavaScript", "HTML5", "CSS3", "REST APIs", "GraphQL", "Firebase",
-    "Vercel", "Netlify", "Linux", "VS Code", "Figma", "Postman"
+    "Java", "C#", ".NET", "Python", "SQL", "Xamarin", "Android Development",
+    "Web Development", "React", "JavaScript", "HTML5", "CSS3", "Visual Studio",
+    "Git", "GitHub", "Database Design", "Mobile Development", "Cross-Platform",
+    "Problem Solving", "Research", "Full-Stack Development", "Object-Oriented Programming"
   ];
 
   return (

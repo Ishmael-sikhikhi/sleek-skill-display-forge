@@ -27,14 +27,16 @@ const About = () => {
   ];
 
   const interests = [
+    "Mobile Development",
+    "Web Development", 
+    "Java Programming",
+    "C# & .NET Development",
+    "Xamarin Cross-Platform",
+    "Python Development",
+    "SQL Database Design",
     "Full-Stack Development",
-    "Mobile Applications", 
-    "Cloud Computing",
-    "DevOps",
-    "UI/UX Design",
-    "Machine Learning",
-    "Open Source",
-    "Tech Innovation"
+    "Problem Solving",
+    "Research & Development"
   ];
 
   return (
@@ -55,19 +57,19 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a passionate software developer with a keen eye for creating digital experiences 
-                that matter. My journey in technology started with curiosity and has evolved into a 
-                career dedicated to building innovative solutions.
+                I'm a passionate software developer from Cape Town, South Africa, with a keen focus on 
+                mobile development and web development. My journey in technology started with curiosity 
+                and has evolved into a career dedicated to solving complex problems through code.
               </p>
               <p>
-                With expertise spanning multiple technologies and frameworks, I enjoy tackling 
-                complex challenges and turning ideas into reality. Whether it's crafting elegant 
-                user interfaces or architecting robust backend systems, I bring creativity and 
-                technical excellence to every project.
+                As a problem solver and fast learner, I easily adapt to new environments and embrace 
+                emerging technologies. I have extensive knowledge in programming languages including Java, 
+                SQL, C#, .NET, Xamarin multiplatform, and Python fundamentals.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring the latest tech trends, contributing 
-                to open-source projects, or sharing knowledge with the developer community.
+                Currently working as a Research Intern at the University of the Western Cape, I'm 
+                continuously expanding my skill set. I recently completed a Certificate in Full Stack 
+                Development from FNB App Academy 2025, further solidifying my expertise in modern development practices.
               </p>
             </div>
           </div>

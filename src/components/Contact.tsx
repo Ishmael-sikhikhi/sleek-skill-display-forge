@@ -44,8 +44,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ishmael@example.com",
-      href: "mailto:ishmael@example.com"
+      value: "ishmael.sikhikhi@example.com",
+      href: "mailto:ishmael.sikhikhi@example.com"
     },
     {
       icon: Phone,
@@ -56,7 +56,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "Johannesburg, South Africa",
+      value: "Cape Town, Western Cape, South Africa",
       href: "#"
     }
   ];
@@ -71,7 +71,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn", 
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/ishmael-sikhikhi-2b8086126/",
       color: "hover:text-blue-600"
     },
     {

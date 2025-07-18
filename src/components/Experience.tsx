@@ -5,63 +5,70 @@ import { Calendar, MapPin, Building } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Software Developer",
-      company: "Tech Solutions Inc.",
-      location: "Johannesburg, SA",
-      period: "2022 - Present",
-      type: "Full-time",
+      title: "Research Intern - Technical Assistance",
+      company: "University of the Western Cape",
+      location: "Cape Town, Western Cape, SA",
+      period: "Present",
+      type: "Internship",
       description: [
-        "Led development of multiple web applications using React, TypeScript, and Node.js",
-        "Collaborated with cross-functional teams to deliver high-quality software solutions",
-        "Mentored junior developers and conducted code reviews",
-        "Implemented CI/CD pipelines and improved deployment processes"
+        "Conducting technical research and providing assistance in various development projects",
+        "Working with cutting-edge technologies in academic research environment",
+        "Collaborating with faculty and students on innovative software solutions",
+        "Contributing to research publications and technical documentation"
       ],
-      technologies: ["React", "TypeScript", "Node.js", "AWS", "Docker", "PostgreSQL"]
+      technologies: ["Research", "Technical Analysis", "Software Development", "Academic Research"]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations",
+      title: "Full Stack Development Student",
+      company: "FNB App Academy",
+      location: "South Africa",
+      period: "2025",
+      type: "Certification Program",
+      description: [
+        "Completed comprehensive Full Stack Development certification program",
+        "Gained expertise in modern web development technologies and methodologies", 
+        "Worked on real-world projects including app strategies and GitHub collaboration",
+        "Mastered principles of UX design, responsive layouts, and user-centric development"
+      ],
+      technologies: ["HTML", "CSS", "JavaScript", "App Development", "UX Design", "GitHub", "Full-Stack"]
+    },
+    {
+      title: "Software Developer",
+      company: "Self-Directed Learning & Projects",
       location: "Cape Town, SA",
-      period: "2020 - 2022",
-      type: "Full-time",
+      period: "2020 - Present",
+      type: "Personal Development",
       description: [
-        "Developed and maintained e-commerce platforms serving thousands of users",
-        "Built responsive web applications with modern JavaScript frameworks",
-        "Integrated third-party APIs and payment processing systems",
-        "Optimized application performance and database queries"
+        "Developed proficiency in multiple programming languages including Java, C#, and Python",
+        "Built cross-platform mobile applications using Xamarin framework",
+        "Created database solutions using SQL for various project requirements",
+        "Continuously learning and adapting to new technologies and development methodologies"
       ],
-      technologies: ["JavaScript", "React", "Express.js", "MongoDB", "Stripe API", "Git"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "Creative Web Studio",
-      location: "Durban, SA", 
-      period: "2019 - 2020",
-      type: "Contract",
-      description: [
-        "Created pixel-perfect responsive websites from design mockups",
-        "Implemented interactive user interfaces with smooth animations",
-        "Collaborated with designers to ensure optimal user experience",
-        "Maintained and updated existing client websites"
-      ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "SASS", "jQuery", "Bootstrap"]
+      technologies: ["Java", "C#", ".NET", "Xamarin", "Python", "SQL", "Mobile Development"]
     }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Computer Science",
-      institution: "University of the Witwatersrand",
-      location: "Johannesburg, SA",
-      period: "2016 - 2019",
-      description: "Specialized in Software Engineering and Web Development"
+      degree: "Certificate in Full Stack Development",
+      institution: "FNB App Academy",
+      location: "South Africa",
+      period: "2025",
+      description: "32 Credits comprehensive program covering App Strategies, GitHub Collaboration, HTML/CSS, UX Design, Data Management, Business Development, and more. Certificate Number: AOTYAA072025"
     },
     {
-      degree: "Certificate in Web Development",
-      institution: "FreeCodeCamp",
-      location: "Online",
-      period: "2018",
-      description: "Full Stack Web Development Certification"
+      degree: "Research Internship - Technical Assistance",
+      institution: "University of the Western Cape",
+      location: "Cape Town, Western Cape, SA",
+      period: "Present",
+      description: "Ongoing research internship focusing on technical assistance and software development in academic environment"
+    },
+    {
+      degree: "Software Development Self-Study",
+      institution: "Various Online Platforms & Resources",
+      location: "Self-Directed Learning",
+      period: "2020 - Present",
+      description: "Comprehensive self-directed learning in Java, C#, .NET, Xamarin, Python, SQL, and mobile development technologies"
     }
   ];
 

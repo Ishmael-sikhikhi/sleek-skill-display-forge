@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import heroPhoto from "@/assets/hero-photo.jpg";
+import heroPhoto from "/lovable-uploads/19e429bd-1414-491a-b9bf-ead1a6d7bc43.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -27,11 +27,12 @@ const Hero = () => {
               <span className="text-gradient">Ishmael Sikhikhi</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl text-muted-foreground mb-6 font-light">
-              Software Developer & Tech Enthusiast
+              Mobile & Web Developer
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
-              Passionate about creating innovative solutions and bringing ideas to life through code. 
-              Specialized in full-stack development with a focus on user experience and clean, efficient code.
+              Problem solver and fast learner specializing in mobile development and web development. 
+              Passionate about creating innovative solutions with expertise in Java, .NET, C#, Xamarin, and Python.
+              Currently working as a Research Intern at University of the Western Cape.
             </p>
             
             {/* CTA Buttons */}
@@ -55,14 +56,20 @@ const Hero = () => {
 
             {/* Social Links */}
             <div className="flex gap-6 justify-center lg:justify-start">
-              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors">
-                <Github size={24} />
+              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors" asChild>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <Github size={24} />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors">
-                <Linkedin size={24} />
+              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors" asChild>
+                <a href="https://www.linkedin.com/in/ishmael-sikhikhi-2b8086126/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin size={24} />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors">
-                <Mail size={24} />
+              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors" asChild>
+                <a href="mailto:ishmael.sikhikhi@example.com">
+                  <Mail size={24} />
+                </a>
               </Button>
             </div>
           </div>
