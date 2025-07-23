@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Ishmael-sikhikhi.github.io/easy-attend-excel",
+  "homepage": "https://Ishmael-sikhikhi.github.io/sleek-skill-display-forge",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
