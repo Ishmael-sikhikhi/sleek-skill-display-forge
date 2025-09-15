@@ -15,11 +15,11 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "E-Commerce Platform",
-      description: "Full-featured online store with user authentication, product catalog, shopping cart, and payment integration. Includes admin dashboard for inventory management.",
+      title: "Attendance Register System",
+      description: "Digital attendance tracking application with Excel export functionality, real-time analytics, and student management. Features daily attendance monitoring, history tracking, and comprehensive reporting capabilities.",
       image: "/placeholder.svg", 
-      technologies: ["Next.js", "Node.js", "MongoDB", "Stripe", "Redux"],
-      liveUrl: "#",
+      technologies: ["React", "JavaScript", "Excel Integration", "Analytics", "Responsive Design"],
+      liveUrl: "https://a031080d.easy-attend-excel-v2.pages.dev/",
       githubUrl: "#",
       featured: true
     },
