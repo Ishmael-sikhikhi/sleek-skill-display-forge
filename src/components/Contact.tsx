@@ -44,14 +44,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ishmael.sikhikhi@example.com",
-      href: "mailto:ishmael.sikhikhi@example.com"
+      value: "i.sikhikhi@gmail.com",
+      href: "mailto:i.sikhikhi@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+27 123 456 789",
-      href: "tel:+27123456789"
+      value: "062 186 7720",
+      href: "tel:+27621867720"
     },
     {
       icon: MapPin,
@@ -65,7 +65,7 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/Ishmael-sikhikhi",
       color: "hover:text-gray-900 dark:hover:text-gray-100"
     },
     {
@@ -235,7 +235,7 @@ const Contact = () => {
                   className="bg-white/20 hover:bg-white/30 border-white/30 text-white"
                   asChild
                 >
-                  <a href="mailto:ishmael@example.com">
+                  <a href="mailto:i.sikhikhi@gmail.com">
                     <Mail size={16} className="mr-2" />
                     Start a Conversation
                   </a>
