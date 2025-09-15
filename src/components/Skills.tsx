@@ -11,7 +11,7 @@ const Skills = () => {
         { name: "C#", level: 82 },
         { name: "Python", level: 75 },
         { name: "SQL", level: 88 },
-        { name: "C Programming", level: 80 }
+        { name: "C Programming", level: 45 }
       ]
     },
     {
@@ -19,7 +19,7 @@ const Skills = () => {
       skills: [
         { name: ".NET Framework", level: 85 },
         { name: "Xamarin", level: 80 },
-        { name: "React", level: 78 },
+        { name: "React", level: 45 },
         { name: "Android Development", level: 82 },
         { name: "Web Development", level: 85 }
       ]
