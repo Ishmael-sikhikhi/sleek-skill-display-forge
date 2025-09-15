@@ -19,7 +19,7 @@ const Projects = () => {
       description: "Digital attendance tracking application with Excel export functionality, real-time analytics, and student management. Features daily attendance monitoring, history tracking, and comprehensive reporting capabilities.",
       image: "/placeholder.svg", 
       technologies: ["React", "JavaScript", "Excel Integration", "Analytics", "Responsive Design"],
-      liveUrl: "https://a031080d.easy-attend-excel-v2.pages.dev/",
+      liveUrl: "https://easy-attend-excel-v.pages.dev/",
       githubUrl: "#",
       featured: true
     },
