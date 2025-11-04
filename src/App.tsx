@@ -13,7 +13,10 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+    {/* Use Vite's base (import.meta.env.BASE_URL) as the router basename so
+      client-side routes work correctly when deployed to a subpath
+      (e.g. GitHub Pages at /<repo>/). */}
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
